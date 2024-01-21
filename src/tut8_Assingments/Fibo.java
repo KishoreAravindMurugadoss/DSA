@@ -6,6 +6,7 @@ public class Fibo {
 
 	public static void main(String[] args) {
 
+		System.out.println("---------- Fibonacci Series of 'n' Numbers ----------");
 		Scanner s = new Scanner(System.in);
 		System.out.print("Enter the value of 'n' : ");
 		int n = s.nextInt();
