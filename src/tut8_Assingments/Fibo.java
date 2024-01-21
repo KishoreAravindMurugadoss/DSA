@@ -20,6 +20,7 @@ public class Fibo {
 			System.out.print(n2 + " , ");
 			
 		}
+		s.close();
 	}
 
 }
