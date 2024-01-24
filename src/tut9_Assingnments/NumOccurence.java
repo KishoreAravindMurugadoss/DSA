@@ -6,6 +6,7 @@ public class NumOccurence {
 
 	public static void main(String[] args) {
 
+		System.out.println("---------- No of Occurence of a Number ----------");
 		Scanner s = new Scanner(System.in);
 		System.out.print("Enter a Number: ");
 		int num = s.nextInt();

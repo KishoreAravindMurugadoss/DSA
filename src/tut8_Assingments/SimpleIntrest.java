@@ -6,8 +6,8 @@ public class SimpleIntrest {
 
 	public static void main(String[] args) {
 
-		Scanner s = new Scanner(System.in);
 		System.out.println("---------------- Simple Intrest Program ----------------");
+		Scanner s = new Scanner(System.in);
 		System.out.print("Principal: ");
 		double p = s.nextDouble();
 		System.out.print("Number of Years: ");
