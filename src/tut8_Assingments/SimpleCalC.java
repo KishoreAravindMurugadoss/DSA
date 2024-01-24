@@ -8,12 +8,12 @@ public class SimpleCalC {
 
 		System.out.println("---------- Simple Calculator ----------");
 		Scanner s = new Scanner(System.in);
-		System.out.print("First Number: ");
-		double n1 = s.nextDouble();
-		System.out.print("Second Number: ");
-		double n2 = s.nextDouble();
 		boolean loop = true;
 		while(loop) {
+			System.out.print("First Number: ");
+			double n1 = s.nextDouble();
+			System.out.print("Second Number: ");
+			double n2 = s.nextDouble();
 			System.out.println("Choose any one from the following:");
 			System.out.println("1 ---> Addtion");
 			System.out.println("2 ---> Subtraction");
