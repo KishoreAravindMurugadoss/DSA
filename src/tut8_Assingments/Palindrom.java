@@ -6,6 +6,7 @@ public class Palindrom {
 
 	public static void main(String[] args) {
 
+		System.out.println("---------- Palindrome ----------");
 		Scanner s = new Scanner(System.in);
 		System.out.print("Type Something... ");
 		String str  = s.nextLine();

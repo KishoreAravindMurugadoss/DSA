@@ -6,6 +6,7 @@ public class SimpleCalC {
 
 	public static void main(String[] args) {
 
+		System.out.println("---------- Simple Calculator ----------");
 		Scanner s = new Scanner(System.in);
 		System.out.print("First Number: ");
 		double n1 = s.nextDouble();
