@@ -15,6 +15,7 @@ public class SimpleIntrest {
 		System.out.print("Rate of Intrest: ");
 		float r = s.nextFloat();
 		simpleInt(p, n, r);
+		s.close();
 	}
 
 	public static void simpleInt(double p, float n, float r) {
