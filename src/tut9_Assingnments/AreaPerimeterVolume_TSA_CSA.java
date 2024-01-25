@@ -364,5 +364,6 @@ public class AreaPerimeterVolume_TSA_CSA {
             }
             
         }
+        s.close();
     }
 }

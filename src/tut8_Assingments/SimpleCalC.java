@@ -58,6 +58,7 @@ public class SimpleCalC {
 					break;
 			}
 		}
+		s.close();
 	}
 
 	public static double div(double n1, double n2) {

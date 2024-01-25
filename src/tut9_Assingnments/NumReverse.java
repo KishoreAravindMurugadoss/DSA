@@ -16,8 +16,7 @@ public class NumReverse {
 			rev = rev * 10 + rem;
 		}
 		System.out.print("Result: " + rev);
-		
-
+		s.close();
 	}
 
 }
