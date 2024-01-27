@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class N_Factorial {
 
 	public static void main(String[] args) {
+		System.out.println("---------- N_Factorial ----------");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter an Integer: ");
 		try {
