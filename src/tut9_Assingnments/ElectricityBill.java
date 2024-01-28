@@ -7,7 +7,7 @@ public class ElectricityBill {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("---------- ElectricityBill ----------");
+		System.out.println("---------- Electricity Bill Generator----------");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the number of units: ");
 		try {
