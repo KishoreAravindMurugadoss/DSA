@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AverageOfN {
 
 	public static void main(String[] args) {
-		System.out.println("---------- Average Of N numbers----------");
+		System.out.println("---------- Average Of N numbers ----------");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the value of N: ");
 		try {
@@ -21,7 +21,7 @@ public class AverageOfN {
 			double avg = sum / n;
 			System.out.println("Average of " + n + " numbers is: " + avg);
 		} catch (InputMismatchException e) {
-			System.err.println("Invalid Input!!! Please Enter an Integer. ");
+			System.err.println("Invalid Input!!! Please Enter only numbers. ");
 		} finally {
 			scanner.close();
 		}
