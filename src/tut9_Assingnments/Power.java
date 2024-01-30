@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Power {
 
 	public static void main(String[] args) {
-		System.out.println("---------- Commision Calculator ----------");
+		System.out.println("---------- Power Calculator ----------");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter base: ");
 		double base = scanner.nextDouble();
@@ -13,6 +13,7 @@ public class Power {
 		int power = scanner.nextInt();
 		double result = powerOf(base, power);
 		System.out.print(base + " to the power of " + power + " is " + result);
+		scanner.close();
 
 	}
 
