@@ -12,6 +12,7 @@ public class ReverseString {
 		String reversed = reversing(input);
 		System.out.println("Original: " + input);
 		System.out.println("Reversed: " + reversed);
+		scanner.close();
 
 	}
 
