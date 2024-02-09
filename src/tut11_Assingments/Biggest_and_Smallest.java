@@ -18,6 +18,7 @@ public class Biggest_and_Smallest {
 		System.out.print("Biggest: " + max);
 		System.out.println();
 		System.out.print("smallest: " + min);
+		scanner.close();
 
 	}
 
