@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OddOrEven {
 
 	public static void main(String[] args) {
-		
+		System.out.println("---------- Odd Or Even ----------");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter: ");
 		int num = scanner.nextInt();
